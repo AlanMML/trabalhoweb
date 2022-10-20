@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    height: 165px;
+    width: auto;
+}
+
+.back{
+    background: linear-gradient(to bottom right,black, #3B0082);
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texto{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 2rem;
+}
+   
+.nome{
+    text-align: center;
+    color: white;
+}
